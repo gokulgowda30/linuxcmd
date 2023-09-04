@@ -1,0 +1,1046 @@
+ 1  ls
+    2  mkdir ignite
+    3  ls
+    4  cd ignite/
+    5  ls
+    6  cat demo.txt
+    7  cat > demo.txt
+    8  cat demo.txt
+    9  cat >> demo.txt
+   10  cat demo.txt
+   11  echo "hello" > demo.txt
+   12  cat demo.txt
+   13  echo "hello" >> demo.txt
+   14  cat demo.txt
+   15  ls
+   16  echo "hello" > jsp.txt
+   17  ls
+   18  rm jsp.txt
+   19  ls
+   20  pwd
+   21  ls
+   22  cd ..
+   23  pwd
+   24  ls
+   25  mkdir sample
+   26  ls
+   27  cd sample/
+   28  ls
+   29  cd ..
+   30  rm sample/
+   31  ls
+   32  rmdir sample
+   33  ls
+   34  rmdir ignite/
+   35  rmdir ignite
+   36  rm -rf ignite
+   37  ls
+   38  echo "jsp" > demo.txt
+   39  ls
+   40  cat demo.txt
+   41  ls
+   42  mkdir tester
+   43  ls
+   44  cd tester
+   45  ls
+   46  cd ..
+   47  cp demo.txt rester
+   48  ls
+   49  cp demo.txt tester
+   50  ls
+   51  cd tester
+   52  ls
+   53  cd ..
+   54  rm demo.txt
+   55  ls
+   56  cd tester
+   57  ls
+   58  cd ..
+   59  cp tester/demo.txt ./
+   60  ls
+   61  mkdir gokul
+   62  ls
+   63  cd gokul/
+   64  ls
+   65  mkdir likith
+   66  ls
+   67  pwd
+   68  cd likith
+   69  pwd
+   70  ls
+   71  cd
+   72  ls
+   73  man mv
+   74  mv demo.txt gokul/likith
+   75  ls
+   76  cd gokul/likith
+   77  ls
+   78  cd
+   79  ls
+   80  rm -rf gokul/ tester/
+   81  ls
+   82  rm rester
+   83  ls
+   84  touch sample.txt demo.txt
+   85  ls
+   86  mv sample.txt jsp.txt
+   87  ls
+   88  touch a.txt b.txt c.txt
+   89  ls
+   90  rm *.txt
+   91  ls
+   92  man mkdir
+   93  mkdir sample1/sample2/sample3
+   94  mkdir -p  sample1/sample2/sample3
+   95  ls
+   96  cd sample1
+   97  ls
+   98  cd sample2
+   99  ls
+  100  cd sample3
+  101  ls
+  102  pwd
+  103  cd
+  104  mkdir -p demo1/demo2/demo3/demo4
+  105  ls
+  106  cd demo1
+  107  ls
+  108  cd demo2
+  109  ls
+  110  cd demo3
+  111  ls
+  112  cd demo4
+  113  ls
+  114  pwd
+  115  touch pratap.txt
+  116  ls
+  117  pwd
+  118  cd
+  119  pwd
+  120  cp demo1/demo2/demo3/demo4/pratap.txt sample1/sample2/sample3
+  121  cd sample1/sample2/sample3
+  122  ls
+  123  cd
+  124  pwd
+  125  vi  demo1/demo2/demo3/demo4/pratap.txt
+  126  cat demo1/demo2/demo3/demo4/pratap.txt
+  127  date
+  128  cal
+  129  pwd
+  130  cd ..
+  131  ls
+  132  cd bin/
+  133  ls
+  134  cd ..
+  135  cd
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd home/
+  140  ls
+  141  cd etc/
+  142  cd etc
+  143  ls
+  144  cd
+  145  rm -rf demo1/ sample1/
+  146  ls
+  147  echo "testing" > demo.txt
+  148  ls
+  149  cat demo.txt
+  150  ls -l
+  151  chmod 000 demo.txt
+  152  cat demo.txt
+  153  vi demo.txt
+  154  ls -l
+  155  chmod 7000 demo.txt
+  156  vi demo.txt
+  157  chmod 700 demo.txt
+  158  vi demo.txt
+  159  ls -l
+  160  chmod u=rx,g+x,o+r demo.txt
+  161  ls -l
+  162  man uname
+-----------------------------------------------------------------------------------------------------
+Authenticating with public key "Imported-Openssh-Key"
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                 • MobaXterm Personal Edition v23.2 •                 │
+    │               (SSH client, X server and network tools)               │
+    │                                                                      │
+    │ ⮞ SSH session to ec2-user@13.233.86.125                              │
+    │   • Direct SSH      :  ✓                                             │
+    │   • SSH compression :  ✓                                             │
+    │   • SSH-browser     :  ✓                                             │
+    │   • X11-forwarding  :  ✗  (disabled or not supported by server)      │
+    │                                                                      │
+    │ ⮞ For more info, ctrl+click on help or visit our website.            │
+    └──────────────────────────────────────────────────────────────────────┘
+
+Last login: Mon Sep  4 04:43:25 2023 from 45.14.71.21
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+[ec2-user@ip-172-31-39-125 ~]$ sudo su -
+Last login: Mon Sep  4 05:11:19 UTC 2023 on pts/0
+[root@ip-172-31-39-125 ~]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:ec2-user
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:ec2-user
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:ec2-user
+systemd-network:x:192:
+dbus:x:81:
+ssh_keys:x:998:
+rpc:x:32:
+libstoragemgmt:x:997:
+sshd:x:74:
+rngd:x:996:
+chrony:x:995:
+rpcuser:x:29:
+nfsnobody:x:65534:
+ec2-instance-connect:x:994:
+slocate:x:21:
+postdrop:x:90:
+postfix:x:89:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+screen:x:84:
+tcpdump:x:72:
+ec2-user:x:1000:
+dev1:x:1001:
+dev:x:1002:
+[root@ip-172-31-39-125 ~]# groupdel dev1
+[root@ip-172-31-39-125 ~]# groupdel dev
+groupdel: cannot remove the primary group of user 'dev'
+[root@ip-172-31-39-125 ~]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:ec2-user
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:ec2-user
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:ec2-user
+systemd-network:x:192:
+dbus:x:81:
+ssh_keys:x:998:
+rpc:x:32:
+libstoragemgmt:x:997:
+sshd:x:74:
+rngd:x:996:
+chrony:x:995:
+rpcuser:x:29:
+nfsnobody:x:65534:
+ec2-instance-connect:x:994:
+slocate:x:21:
+postdrop:x:90:
+postfix:x:89:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+screen:x:84:
+tcpdump:x:72:
+ec2-user:x:1000:
+dev:x:1002:
+[root@ip-172-31-39-125 ~]# groupdel dev
+groupdel: cannot remove the primary group of user 'dev'
+[root@ip-172-31-39-125 ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+chrony:x:997:995::/var/lib/chrony:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:996:994::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+dev:x:1001:1002::/home/dev:/bin/bash
+[root@ip-172-31-39-125 ~]# userdel -r dev
+[root@ip-172-31-39-125 ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+chrony:x:997:995::/var/lib/chrony:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:996:994::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+[root@ip-172-31-39-125 ~]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:ec2-user
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:ec2-user
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:ec2-user
+systemd-network:x:192:
+dbus:x:81:
+ssh_keys:x:998:
+rpc:x:32:
+libstoragemgmt:x:997:
+sshd:x:74:
+rngd:x:996:
+chrony:x:995:
+rpcuser:x:29:
+nfsnobody:x:65534:
+ec2-instance-connect:x:994:
+slocate:x:21:
+postdrop:x:90:
+postfix:x:89:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+screen:x:84:
+tcpdump:x:72:
+ec2-user:x:1000:
+[root@ip-172-31-39-125 ~]# group devops
+-bash: group: command not found
+[root@ip-172-31-39-125 ~]# groupadd devops
+[root@ip-172-31-39-125 ~]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:ec2-user
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:ec2-user
+cdrom:x:11:
+mail:x:12:postfix
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+nobody:x:99:
+users:x:100:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+systemd-journal:x:190:ec2-user
+systemd-network:x:192:
+dbus:x:81:
+ssh_keys:x:998:
+rpc:x:32:
+libstoragemgmt:x:997:
+sshd:x:74:
+rngd:x:996:
+chrony:x:995:
+rpcuser:x:29:
+nfsnobody:x:65534:
+ec2-instance-connect:x:994:
+slocate:x:21:
+postdrop:x:90:
+postfix:x:89:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:
+screen:x:84:
+tcpdump:x:72:
+ec2-user:x:1000:
+devops:x:1001:
+[root@ip-172-31-39-125 ~]# useradd dev1
+[root@ip-172-31-39-125 ~]# passwd dev1
+Changing password for user dev1.
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@ip-172-31-39-125 ~]# useradd tster1
+[root@ip-172-31-39-125 ~]# passwd tster1
+Changing password for user tster1.
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@ip-172-31-39-125 ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+chrony:x:997:995::/var/lib/chrony:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:996:994::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+dev1:x:1001:1002::/home/dev1:/bin/bash
+tster1:x:1002:1003::/home/tster1:/bin/bash
+[root@ip-172-31-39-125 ~]# usermode -a -G devops dev1
+-bash: usermode: command not found
+[root@ip-172-31-39-125 ~]# usermod -a -G devops dev1
+[root@ip-172-31-39-125 ~]# usermod -a -G devops tster1
+[root@ip-172-31-39-125 ~]# gpasswd -d dev1 devops
+Removing user dev1 from group devops
+[root@ip-172-31-39-125 ~]# gpasswd -d tster1 devops
+Removing user tster1 from group devops
+[root@ip-172-31-39-125 ~]# groupdel devops
+[root@ip-172-31-39-125 ~]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+chrony:x:997:995::/var/lib/chrony:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:996:994::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+dev1:x:1001:1002::/home/dev1:/bin/bash
+tster1:x:1002:1003::/home/tster1:/bin/bash
+[root@ip-172-31-39-125 ~]# userdel -r dev1
+[root@ip-172-31-39-125 ~]# userdel -r tster1
+[root@ip-172-31-39-125 ~]# man zip
+[root@ip-172-31-39-125 ~]# ls
+[root@ip-172-31-39-125 ~]# touch a.js b.js c.js d.js
+[root@ip-172-31-39-125 ~]# ls
+a.js  b.js  c.js  d.js
+[root@ip-172-31-39-125 ~]# mkdir sample
+[root@ip-172-31-39-125 ~]# cp *.js sample/
+[root@ip-172-31-39-125 ~]# cd sample/
+[root@ip-172-31-39-125 sample]# ls
+a.js  b.js  c.js  d.js
+[root@ip-172-31-39-125 sample]#
+[root@ip-172-31-39-125 sample]# cd
+[root@ip-172-31-39-125 ~]# ls
+a.js  b.js  c.js  d.js  sample
+[root@ip-172-31-39-125 ~]# touch a1.txt b1.txt c1.txt
+[root@ip-172-31-39-125 ~]# cd sample/
+[root@ip-172-31-39-125 sample]# ls
+a.js  b.js  c.js  d.js
+[root@ip-172-31-39-125 sample]# rm -rf *.js
+[root@ip-172-31-39-125 sample]# ls
+[root@ip-172-31-39-125 sample]# cd ..
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  d.js  sample
+[root@ip-172-31-39-125 ~]# zip demo.zip a1.txt a.js b1.txt b.js c1.txt c.js d.js
+  adding: a1.txt (stored 0%)
+  adding: a.js (stored 0%)
+  adding: b1.txt (stored 0%)
+  adding: b.js (stored 0%)
+  adding: c1.txt (stored 0%)
+  adding: c.js (stored 0%)
+  adding: d.js (stored 0%)
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample
+[root@ip-172-31-39-125 ~]# mkdir sample
+mkdir: cannot create directory ‘sample’: File exists
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample
+[root@ip-172-31-39-125 ~]# cp demo.zip sample/
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample
+[root@ip-172-31-39-125 ~]# cd sample
+[root@ip-172-31-39-125 sample]# ls
+demo.zip
+[root@ip-172-31-39-125 sample]# unzip demo.zip
+Archive:  demo.zip
+ extracting: a1.txt
+ extracting: a.js
+ extracting: b1.txt
+ extracting: b.js
+ extracting: c1.txt
+ extracting: c.js
+ extracting: d.js
+[root@ip-172-31-39-125 sample]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js
+[root@ip-172-31-39-125 sample]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js
+[root@ip-172-31-39-125 sample]# cd ..
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample
+[root@ip-172-31-39-125 ~]# man tar
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample
+[root@ip-172-31-39-125 ~]# tar -cvf web.tar
+tar: Cowardly refusing to create an empty archive
+Try `tar --help' or `tar --usage' for more information.
+[root@ip-172-31-39-125 ~]# tar -cvf web.tar a.js b.js c.js d.js
+a.js
+b.js
+c.js
+d.js
+[root@ip-172-31-39-125 ~]# lw
+-bash: lw: command not found
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  sample  web.tar
+[root@ip-172-31-39-125 ~]# mkdir jsp
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar
+[root@ip-172-31-39-125 ~]# cp web.tar jsp
+[root@ip-172-31-39-125 ~]# cd jsp
+[root@ip-172-31-39-125 jsp]# tar -xvf web.tar
+a.js
+b.js
+c.js
+d.js
+[root@ip-172-31-39-125 jsp]# ls
+a.js  b.js  c.js  d.js  web.tar
+[root@ip-172-31-39-125 jsp]# ls
+a.js  b.js  c.js  d.js  web.tar
+[root@ip-172-31-39-125 jsp]# gzip web.tar
+[root@ip-172-31-39-125 jsp]# ls
+a.js  b.js  c.js  d.js  web.tar.gz
+[root@ip-172-31-39-125 jsp]# rm  -rf jsp
+[root@ip-172-31-39-125 jsp]# mkdir jsp
+[root@ip-172-31-39-125 jsp]# ls
+a.js  b.js  c.js  d.js  jsp  web.tar.gz
+[root@ip-172-31-39-125 jsp]# cd jsp
+[root@ip-172-31-39-125 jsp]# cd
+[root@ip-172-31-39-125 ~]# rm -rf jsp
+[root@ip-172-31-39-125 ~]# mkdir jsp
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar
+[root@ip-172-31-39-125 ~]# cd jsp
+[root@ip-172-31-39-125 jsp]# ls
+[root@ip-172-31-39-125 jsp]# cd ..
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar
+[root@ip-172-31-39-125 ~]# gzip web.tar
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar.gz
+[root@ip-172-31-39-125 ~]# cp web.tsr.gz jsp
+cp: cannot stat ‘web.tsr.gz’: No such file or directory
+[root@ip-172-31-39-125 ~]# cp web.tar.gz jsp
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar.gz
+[root@ip-172-31-39-125 ~]# cd jsp
+[root@ip-172-31-39-125 jsp]# ls
+web.tar.gz
+[root@ip-172-31-39-125 jsp]# gzip -d web.tar.gz
+[root@ip-172-31-39-125 jsp]# ls
+web.tar
+[root@ip-172-31-39-125 jsp]# gzip web.tar
+[root@ip-172-31-39-125 jsp]# ls
+web.tar.gz
+[root@ip-172-31-39-125 jsp]# tar -zxvf web.tar.gz
+a.js
+b.js
+c.js
+d.js
+[root@ip-172-31-39-125 jsp]# ls
+a.js  b.js  c.js  d.js  web.tar.gz
+[root@ip-172-31-39-125 jsp]# cd ..
+[root@ip-172-31-39-125 ~]# ls
+a1.txt  a.js  b1.txt  b.js  c1.txt  c.js  demo.zip  d.js  jsp  sample  web.tar.gz
+[root@ip-172-31-39-125 ~]# rm -rf *
+[root@ip-172-31-39-125 ~]# ls
+[root@ip-172-31-39-125 ~]# echo "hey" > demo.txt
+[root@ip-172-31-39-125 ~]# ls
+demo.txt
+[root@ip-172-31-39-125 ~]# mkdir sample
+[root@ip-172-31-39-125 ~]# echo "noooo" > testert.txt
+[root@ip-172-31-39-125 ~]# ls
+demo.txt  sample  testert.txt
+[root@ip-172-31-39-125 ~]# df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+devtmpfs          479000       0    479000   0% /dev
+tmpfs             487796       0    487796   0% /dev/shm
+tmpfs             487796     440    487356   1% /run
+tmpfs             487796       0    487796   0% /sys/fs/cgroup
+/dev/xvda1       8376300 1735764   6640536  21% /
+tmpfs              97560       0     97560   0% /run/user/1000
+[root@ip-172-31-39-125 ~]# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+tmpfs           477M  440K  476M   1% /run
+tmpfs           477M     0  477M   0% /sys/fs/cgroup
+/dev/xvda1      8.0G  1.7G  6.4G  21% /
+tmpfs            96M     0   96M   0% /run/user/1000
+[root@ip-172-31-39-125 ~]# man du
+[root@ip-172-31-39-125 ~]# ls
+demo.txt  sample  testert.txt
+[root@ip-172-31-39-125 ~]# du
+4       ./.ssh
+0       ./sample
+36      .
+[root@ip-172-31-39-125 ~]# du -h
+4.0K    ./.ssh
+0       ./sample
+36K     .
+[root@ip-172-31-39-125 ~]# cd sample/
+[root@ip-172-31-39-125 sample]# touch a b c d e f g h
+[root@ip-172-31-39-125 sample]# ls
+a  b  c  d  e  f  g  h
+[root@ip-172-31-39-125 sample]# cd ..
+[root@ip-172-31-39-125 ~]# du -h
+4.0K    ./.ssh
+0       ./sample
+36K     .
+[root@ip-172-31-39-125 ~]# du -a
+4       ./.bash_logout
+4       ./.bash_profile
+4       ./.bashrc
+4       ./.cshrc
+4       ./.tcshrc
+4       ./.ssh/authorized_keys
+4       ./.ssh
+4       ./.bash_history
+4       ./demo.txt
+0       ./sample/a
+0       ./sample/b
+0       ./sample/c
+0       ./sample/d
+0       ./sample/e
+0       ./sample/f
+0       ./sample/g
+0       ./sample/h
+0       ./sample
+4       ./testert.txt
+36      .
+[root@ip-172-31-39-125 ~]# du -ah
+4.0K    ./.bash_logout
+4.0K    ./.bash_profile
+4.0K    ./.bashrc
+4.0K    ./.cshrc
+4.0K    ./.tcshrc
+4.0K    ./.ssh/authorized_keys
+4.0K    ./.ssh
+4.0K    ./.bash_history
+4.0K    ./demo.txt
+0       ./sample/a
+0       ./sample/b
+0       ./sample/c
+0       ./sample/d
+0       ./sample/e
+0       ./sample/f
+0       ./sample/g
+0       ./sample/h
+0       ./sample
+4.0K    ./testert.txt
+36K     .
+[root@ip-172-31-39-125 ~]# du -s
+36      .
+[root@ip-172-31-39-125 ~]# du -sh
+36K     .
+[root@ip-172-31-39-125 ~]# lsblk
+NAME    MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+xvda    202:0    0   8G  0 disk
+└─xvda1 202:1    0   8G  0 part /
+[root@ip-172-31-39-125 ~]# man lsblk
+[root@ip-172-31-39-125 ~]# man wget
+[root@ip-172-31-39-125 ~]# curl -o https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
+curl: (2) no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+[root@ip-172-31-39-125 ~]# curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11.1M  100 11.1M    0     0  91.8M      0 --:--:-- --:--:-- --:--:-- 92.1M
+[root@ip-172-31-39-125 ~]# ls
+apache-tomcat-9.0.80.tar.gz  demo.txt  sample  testert.txt
+[root@ip-172-31-39-125 ~]# vi demo.txt
+[root@ip-172-31-39-125 ~]# cat demo.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+
+[root@ip-172-31-39-125 ~]# head demo.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+[root@ip-172-31-39-125 ~]# head -n 9 demo.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[root@ip-172-31-39-125 ~]# head -9 demo.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[root@ip-172-31-39-125 ~]# head -6 demo.txt
+1
+2
+3
+4
+5
+6
+[root@ip-172-31-39-125 ~]# ls
+apache-tomcat-9.0.80.tar.gz  demo.txt  sample  testert.txt
+[root@ip-172-31-39-125 ~]# tail demo.txt
+5
+6
+7
+8
+9
+10
+11
+12
+13
+
+[root@ip-172-31-39-125 ~]# tail -n 5 demo.txt
+10
+11
+12
+13
+
+[root@ip-172-31-39-125 ~]# head -6 demo.txt | tail -2
+5
+6
+[root@ip-172-31-39-125 ~]# head -12 demo.txt | tail -3
+10
+11
+12
+[root@ip-172-31-39-125 ~]# exit
+logout
+[ec2-user@ip-172-31-39-125 ~]$ history
+    1  sudo su -
+    2  history
+[ec2-user@ip-172-31-39-125 ~]$ sudo su -
+Last login: Mon Sep  4 05:12:33 UTC 2023 on pts/0
+[root@ip-172-31-39-125 ~]# history
+    1  cat /etc/passwd
+    2  su - dev
+    3  exit
+    4  exit
+    5  /
+    6  cd /
+    7  .
+    8  cd .
+    9  ls
+   10  cd /home
+   11  ls
+   12  logout
+   13  exit
+   14  userdel -r dev
+   15  cat /etc/passwd
+   16  groupadd dev1
+   17  cat /etc/group
+   18  useradd dev1
+   19  cat /etc/passwd
+   20  passwd dev1
+   21  userdel -r dev1
+   22  useradd dev1
+   23  useradd -g dev1
+   24  cat /etc/passwd
+   25  userdadd dev1
+   26  adduser dev1
+   27  cat /etc/group
+   28  group -d dev1
+   29  gpasswd -d dev1
+   30  gpasswd -d dev1 dev
+   31  gpasswd -d dev1 dev1
+   32  gpasswd -d dev dev1
+   33  gpasswd -d dev1
+   34  adduser dev
+   35  cat /etc/passwd
+   36  sudo su
+   37  sudo su-
+   38  sudo su
+   39  sudo su-
+   40  sudo su -
+   41  su - dez
+   42  su - dev
+   43  sudo su -
+   44  useradd dev
+   45  cat /etc/passwd
+   46  passwd dev
+   47  su - dev
+   48  sudo su -
+   49  cat /etc/group
+   50  groupdel dev1
+   51  groupdel dev
+   52  cat /etc/group
+   53  groupdel dev
+   54  cat /etc/passwd
+   55  userdel -r dev
+   56  cat /etc/passwd
+   57  cat /etc/group
+   58  group devops
+   59  groupadd devops
+   60  cat /etc/group
+   61  useradd dev1
+   62  passwd dev1
+   63  useradd tster1
+   64  passwd tster1
+   65  cat /etc/passwd
+   66  usermode -a -G devops dev1
+   67  usermod -a -G devops dev1
+   68  usermod -a -G devops tster1
+   69  gpasswd -d dev1 devops
+   70  gpasswd -d tster1 devops
+   71  groupdel devops
+   72  cat /etc/passwd
+   73  userdel -r dev1
+   74  userdel -r tster1
+   75  man zip
+   76  ls
+   77  touch a.js b.js c.js d.js
+   78  ls
+   79  mkdir sample
+   80  cp *.js sample/
+   81  cd sample/
+   82  ls
+   83  cd
+   84  ls
+   85  touch a1.txt b1.txt c1.txt
+   86  cd sample/
+   87  ls
+   88  rm -rf *.js
+   89  ls
+   90  cd ..
+   91  ls
+   92  zip demo.zip a1.txt a.js b1.txt b.js c1.txt c.js d.js
+   93  ls
+   94  mkdir sample
+   95  ls
+   96  cp demo.zip sample/
+   97  ls
+   98  cd sample
+   99  ls
+  100  unzip demo.zip
+  101  ls
+  102  cd ..
+  103  ls
+  104  man tar
+  105  ls
+  106  tar -cvf web.tar
+  107  tar -cvf web.tar a.js b.js c.js d.js
+  108  lw
+  109  ls
+  110  mkdir jsp
+  111  ls
+  112  cp web.tar jsp
+  113  cd jsp
+  114  tar -xvf web.tar
+  115  ls
+  116  gzip web.tar
+  117  ls
+  118  rm  -rf jsp
+  119  mkdir jsp
+  120  ls
+  121  cd jsp
+  122  cd
+  123  rm -rf jsp
+  124  mkdir jsp
+  125  ls
+  126  cd jsp
+  127  ls
+  128  cd ..
+  129  ls
+  130  gzip web.tar
+  131  ls
+  132  cp web.tsr.gz jsp
+  133  cp web.tar.gz jsp
+  134  ls
+  135  cd jsp
+  136  ls
+  137  gzip -d web.tar.gz
+  138  ls
+  139  gzip web.tar
+  140  ls
+  141  tar -zxvf web.tar.gz
+  142  ls
+  143  cd ..
+  144  ls
+  145  rm -rf *
+  146  ls
+  147  echo "hey" > demo.txt
+  148  ls
+  149  mkdir sample
+  150  echo "noooo" > testert.txt
+  151  ls
+  152  df
+  153  df -h
+  154  man du
+  155  ls
+  156  du
+  157  du -h
+  158  cd sample/
+  159  touch a b c d e f g h
+  160  ls
+  161  cd ..
+  162  du -h
+  163  du -a
+  164  du -ah
+  165  du -s
+  166  du -sh
+  167  lsblk
+  168  man lsblk
+  169  man wget
+  170  curl -o https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
+  171  curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz
+  172  ls
+  173  vi demo.txt
+  174  cat demo.txt
+  175  head demo.txt
+  176  head -n 9 demo.txt
+  177  head -9 demo.txt
+  178  head -6 demo.txt
+  179  ls
+  180  tail demo.txt
+  181  tail -n 5 demo.txt
+  182  head -6 demo.txt | tail -2
+  183  head -12 demo.txt | tail -3
+  184  exit
+  185  history
+[root@ip-172-31-39-125 ~]#
